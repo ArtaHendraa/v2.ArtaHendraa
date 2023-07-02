@@ -310,13 +310,13 @@ header table {
     height: auto;
     margin: 4.5% 0px;
     transition: 0.4s ease-in-out;
-    filter: blur(3px);
+    /* filter: blur(3px); */
 }
 
 #photos img:hover {
     transform: scale(1.1);
     cursor: pointer;
-    filter: blur(0);
+    /* filter: blur(0); */
 }
 
 #bio {
