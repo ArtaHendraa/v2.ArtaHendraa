@@ -11,7 +11,7 @@ window.onscroll = function () {
             $("#header").css("padding", "4vh 4vw");
             $("#navigation a").hover(
                 function () {
-                    $(this).css("border-bottom", "2px solid rgb(0, 118, 255)"); 
+                    $(this).css("border-bottom", "2px solid rgb(0, 118, 255)");
                 },
                 function () {
                     $(this).css("border-bottom", "2px solid transparent");
@@ -61,7 +61,7 @@ setTimeout(function () {
     }, 800);
 }, 1650);
 
-$(document).ready(function () { 
+$(document).ready(function () {
     $("a").on("click", function (event) {
         if (this.hash !== "") {
             event.preventDefault();
