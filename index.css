@@ -282,7 +282,7 @@ header table {
 #rightImage {
   width: 100%;
   height: 95vh;
-  background: url("/assets/ilus-me_waifu2x_noise2_scale4x.png") center center;
+  background: url("./assets/ilus-me_waifu2x_noise2_scale4x.png") center center;
   background-size: 70%;
   background-repeat: no-repeat;
 }
